@@ -1,0 +1,42 @@
+MySQL:
+  enabled: false
+  host: 'localhost'
+  database: 'db'
+  username: 'user'
+  password: 'pass'
+  port: 3306
+
+Settings:
+  commands:
+    - 'plotme'
+    - 'plot'
+    - 'p'
+
+Messages:
+  online: '&aOnline'
+  offline: '&cOffline'
+  trusted: '&aSim'
+  untrusted: '&cNão'
+  selling-plot: '&6&lVoltz&f&lMC &8&l➜ &cVocê não pode fazer isso enquanto seu terreno estiver à venda!'
+  outside-plot: '&6&lVoltz&f&lMC &8&l➜ &cVocê precisa estar nesse terreno para definir home!'
+  successful-set-home: '&6&lVoltz&f&lMC &8&l➜ &aLocal definido com sucesso!'
+  never-seen: '&6&lVoltz&f&lMC &8&l➜ &cEsse jogador nunca entrou no servidor!'
+  already-added: '&6&lVoltz&f&lMC &8&l➜ &cEsse jogador já possui permissões nesse terreno!'
+  already-denied: '&6&lVoltz&f&lMC &8&l➜ &cEsse jogador já está banido desse terreno!'
+  invalid-price: '&6&lVoltz&f&lMC &8&l➜ &cO preço informado é inválido!'
+  invalid-selling: '&6&lVoltz&f&lMC &8&l➜ &cEsse terreno não está mais à venda!'
+  insufficient-currency: '&6&lVoltz&f&lMC &8&l➜ &cVocê não consegue pagar por esse terreno! ({has}/{need})'
+  plot-limit: '&6&lVoltz&f&lMC &8&l➜ &cVocê já atingiu seu limite de terrenos!'
+  select-price:
+    - '&6&lVoltz&f&lMC &8&l➜ &7Digite no chat o preço que deseja!'
+    - '&6&lVoltz&f&lMC &8&l➜ &7Lembre-se que você pode usar números formatados! Exemplos: &f100k&7, &f100B&7.'
+  type-nick:
+    - '&6&lVoltz&f&lMC &8&l➜ &7Digite no chat o nick do jogador!'
+
+Next-Page:
+  type: ARROW
+  name: '&aPróxima Página'
+
+Previous-Page:
+  type: ARROW
+  name: '&cPágina Anterior'

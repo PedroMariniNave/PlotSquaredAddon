@@ -1,0 +1,77 @@
+Inventory:
+  title: 'Gerenciar Terreno'
+  size: 45
+  items:
+    1:
+      action: MEMBERS
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDMwOTNhNWI3NzY0MmQ0MDkyMTEyZjQ2ZWE2ODE0MGZiNWFlMDRiYmQyMzFjZGExMDY2YTA0YzE4Yjg5Yzk0ZSJ9fX0=
+      name: "&6Gerenciar Membros"
+      lore:
+        - '&7Membros são jogadores em que você'
+        - '&7confia para dar acesso a seu terreno.'
+        - ''
+        - '&7Esse terreno possui &f{members} &7membros!'
+        - ''
+        - '&7Clique para ver a lista de'
+        - '&7membros e gerenciá-los!'
+      slot: 11
+    2:
+      action: DENIED
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+      name: "&6Gerenciar Jogadores Banidos"
+      lore:
+        - '&7Jogadores banidos são jogadores em que'
+        - '&7você não confia, portanto são banidos'
+        - '&7de seu terreno.'
+        - ''
+        - '&7Esse terreno possui &f{denied} &7jogadores banidos!'
+        - ''
+        - '&7Clique para ver a lista de jogadores'
+        - '&7banidos e gerenciá-los!'
+      slot: 13
+    3:
+      action: SELL_PLOTME
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGRhOGE4YzkzODRlMjMyM2UxMzdmYjE0ZWVkOWE3MTczOTgxZmM3NjU5MGM4YmY4OWJlOGI1YmZjNDdkOTJmIn19fQ==
+      name: "&6Vender Terreno"
+      lore:
+        - '&7Ao anunciar seu terreno, ele continuará sendo'
+        - '&7seu até um jogador adquirir pela imobiliária.'
+        - ''
+        - '&7Clique para anunciar o terreno!'
+      slot: 15
+    4:
+      action: SET_HOME
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc3NGU1ZWYzZDhiY2RlOWVhMjFjMzRiODQ4MjdkMzQ1MzFlNjhmMTExNTEwZjMzODMwNTVlY2FhNzRiZWJjYyJ9fX0=
+      name: "&6Definir Home"
+      lore:
+        - '&7Ao definir uma home, você sempre'
+        - '&7será teleportado ao local definido.'
+        - ''
+        - '&7Clique para definir o local!'
+      slot: 29
+    5:
+      action: DISPOSE
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVjNjVmYzg3YzUwNDQxNWVmZjczMGEyZjRmZTdkMDZkMmYxMTZlYTJhMzEzNDgxZjM2MmQwYTI1ZDY1ZTUwMCJ9fX0=
+      name: "&6Abandonar Terreno"
+      lore:
+        - '&7Ao abandonar seu terreno, qualquer'
+        - '&7jogador poderá tomar posse.'
+        - ''
+        - '&7Clique para abandonar o terreno!'
+      slot: 31
+    6:
+      action: CLEAR
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE0NjljZTY3ZGZjMjg0MzNhZWE4YTQ1YWI4MTZlNTFiZDM5YmE5ZWI4MTVkMjI1NzllNzc2OThkYTBiZjI5NSJ9fX0=
+      name: "&6Limpar Terreno"
+      lore:
+        - '&7Ao limpar seu terreno, ele será'
+        - '&7como antes, sem nenhuma alteração.'
+        - ''
+        - '&7Clique para limpar o terreno!'
+      slot: 33

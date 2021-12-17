@@ -1,0 +1,7 @@
+name: PlotSquaredAddon
+description: Only a simple PlotSquared addon.
+version: 1.0
+api-version: 1.8
+author: zPedroo_
+main: com.zpedroo.plotsquared.PlotSquaredAddon
+depend: [PlotSquared, MultiEconomy]

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PlotSquaredAddon">
+    <output-path>$USER_HOME$/Desktop/Compilar Plugins</output-path>
+    <root id="archive" name="PlotSquaredAddon.jar">
+      <element id="module-output" name="PlotSquaredAddon" />
+    </root>
+  </artifact>
+</component>

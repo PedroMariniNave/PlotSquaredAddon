@@ -1,0 +1,28 @@
+Inventory:
+  title: 'Comprar Terreno'
+  size: 45
+  items:
+    1:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWMxODI2OGM5MThlZDNiNDVjYjE2Mzk2MjMzOGQ3Mjc0MjRlMWQ4MjgwNmE3MWQxYTBiZTVmYjQ1MjljYSJ9fX0=
+      name: '&6Comprando Terreno'
+      lore:
+        - '&7Abaixo estão as informações'
+        - '&7desse terreno:'
+        - ''
+        - ' &8▶ &7Dono: &f{owner}'
+        - ' &8▶ &7Preço: {price}'
+        - ' &8▶ &7Terrenos: &f{merge}'
+      slot: 13
+    2:
+      action: CONFIRM
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTllNGJkY2YxNzJkNWRjNzdjMmJkNGUzN2FkOTg1Mzk5YTlmMmNkZWJmNzI0NjM5MjllYTRiNjY2ZWY2ZjgwIn19fQ==
+      name: "&aConfirmar"
+      slot: 29
+    3:
+      action: CANCEL
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+      name: "&cCancelar"
+      slot: 33

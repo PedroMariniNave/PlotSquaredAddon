@@ -1,0 +1,60 @@
+Inventory:
+  title: "Meus Terrenos"
+  size: 54
+  item-slots: 11,12,13,14,15,20,21,22,23,24,29,30,31,32,33
+  next-page-slot: 26 # só vai aparecer se tiver próxima página
+  previous-page-slot: 18 # só vai aparecer se tiver página anterior
+
+Item:
+  type: SKULL_ITEM
+  owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWMxODI2OGM5MThlZDNiNDVjYjE2Mzk2MjMzOGQ3Mjc0MjRlMWQ4MjgwNmE3MWQxYTBiZTVmYjQ1MjljYSJ9fX0=
+  name: '&6Terreno #{id}'
+  lore:
+    - '&7Abaixo estão as informações'
+    - '&7desse terreno:'
+    - ''
+    - ' &8▶ &7Membros: &f{members}'
+    - ' &8▶ &7Jogadores banidos: &f{denied}'
+    - ' &8▶ &7Terrenos: &f{merge}'
+    - ' &8▶ &7Adquirido em: &f{timestamp}'
+    - ''
+    - '&7Clique com o &fbotão esquerdo &7para teleportar'
+    - '&7Clique com o &fbotão direito &7para gerenciar'
+
+Selling-Item:
+  type: SKULL_ITEM
+  owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNmMjkzZWJkMDkxMWJiODEzM2U3NTgwMjg5MDk5N2U4Mjg1NDkxNWRmNWQ4OGYxMTVkZTFkZWJhNjI4MTY0In19fQ==
+  name: '&6Terreno #{id}'
+  lore:
+    - '&7Abaixo estão as informações'
+    - '&7desse terreno:'
+    - ''
+    - ' &8▶ &7Membros: &f{members}'
+    - ' &8▶ &7Jogadores banidos: &f{denied}'
+    - ' &8▶ &7Terrenos: &f{merge}'
+    - ' &8▶ &7Adquirido em: &f{timestamp}'
+    - ' &8▶ &7Sendo vendido por: {price}'
+    - ''
+    - '&7Clique com o &fbotão esquerdo &7para teleportar'
+    - '&7Clique com o &fbotão direito &7para gerenciar'
+    - '&7Clique com o &fscroll &7para gerenciar a venda'
+
+Nothing:
+  type: WEB
+  name: '&cVazio'
+  slot: 22
+
+Claim-Plotme:
+  type: SKULL_ITEM
+  owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTllNGJkY2YxNzJkNWRjNzdjMmJkNGUzN2FkOTg1Mzk5YTlmMmNkZWJmNzI0NjM5MjllYTRiNjY2ZWY2ZjgwIn19fQ==
+  name: '&aAdquirir um Terreno'
+  lore:
+    - '&7Ao adquirir um terreno, você'
+    - '&7terá total &fliberdade &7para &fconstruir'
+    - '&7o que quiser sem ser incomodado.'
+    - ''
+    - '&7Construa sua &fcasa &7ou &ffarm &7e &fimpressione'
+    - '&7os demais &7jogadores!'
+    - ''
+    - '&7Clique para adquirir um terreno!'
+  slot: 49

@@ -1,0 +1,29 @@
+Inventory:
+  title: 'Gerenciar Venda'
+  size: 27
+  items:
+    1:
+      action: EDIT_PRICE
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRhZjhkNTc1ZjBhNTI0ZWY2NmEyMTU3M2U4YTRhOGFjN2Q2NDBiMDBkOThlMmU5Mzc0ZTYwNDcwZTdjODZmMCJ9fX0=
+      name: "&6Editar Preço"
+      lore:
+        - '&7Preço atual: {price}'
+        - ''
+        - '&7Clique para editar o preço!'
+      slot: 11
+    2:
+      action: CANCEL_SELLING
+      type: BARRIER
+      name: "&cCancelar Venda"
+      slot: 13
+    3:
+      action: EDIT_CURRENCY
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE0ZWZjZTQ0MzFlMmFmYzYzNjQwYjUwZjc3ZmNlMWRmODYxNzU1N2U0ZGJkNmE2MWNkOTAyOTIyY2Q4OWQwNiJ9fX0=
+      name: "&6Editar Moeda"
+      lore:
+        - '&7Moeda atual: {currency}'
+        - ''
+        - '&7Clique para editar a moeda!'
+      slot: 15
